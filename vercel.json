@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "ALPHA_VANTAGE_API_KEY": "@alpha-vantage-api-key",
+    "CACHE_TTL_SECONDS": "60",
+    "MIN_REFRESH_INTERVAL_SECONDS": "60",
+    "MAX_REQUESTS_PER_MINUTE": "20",
+    "MAX_REQUESTS_PER_MONTH": "500"
+  },
+  "regions": ["iad1"],
+  "github": {
+    "silent": true
+  }
+}
+

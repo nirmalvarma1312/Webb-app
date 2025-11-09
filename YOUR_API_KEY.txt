@@ -1,0 +1,25 @@
+Your Alpha Vantage API Key: 910P9BKYACXHH9BI
+
+IMPORTANT: Keep this file secure and do NOT commit it to Git!
+
+To set up your environment:
+
+1. Create a .env file in the project root:
+   touch .env
+
+2. Add the following content to .env:
+
+ALPHA_VANTAGE_API_KEY=910P9BKYACXHH9BI
+CACHE_TTL_SECONDS=60
+MIN_REFRESH_INTERVAL_SECONDS=60
+MAX_REQUESTS_PER_MINUTE=20
+MAX_REQUESTS_PER_MONTH=500
+NEXT_PUBLIC_WS_URL=ws://localhost:3000
+
+3. Verify .env is in .gitignore (it already is!)
+
+4. Start the development server:
+   npm run dev
+
+Your API key is ready to use!
+
