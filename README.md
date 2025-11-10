@@ -34,6 +34,7 @@ A modern web application for tracking financial indices and indicators with real
 - **WebSocket**: ws library
 - **API**: Alpha Vantage Financial API
 - **Deployment**: Vercel (recommended)
+DEPLOYMENT LINK: https://webb-app-5akg.vercel.app/
 
 ### Project Structure
 
