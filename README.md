@@ -93,7 +93,7 @@ Edit `.env` and add your API keys:
 ```env
 # Required: Alpha Vantage API Key
 # Get yours at: https://www.alphavantage.co/support/#api-key
-ALPHA_VANTAGE_API_KEY=your_api_key_here
+ALPHA_VANTAGE_API_KEY=910P9BKYACXHH9BI
 
 # Optional: Cache Configuration
 CACHE_TTL_SECONDS=60
